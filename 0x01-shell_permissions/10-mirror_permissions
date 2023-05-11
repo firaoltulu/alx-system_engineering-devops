@@ -1,2 +1,2 @@
 #!/bin/bash
-chromd --reference=olleh hello
+chmod --reference=olleh hello
