@@ -6,7 +6,7 @@ while [ $three -le 10 ]
 do
 	echo "Best School"
 	if [ $three -eq 9 ]; then
-	   echo "Hi"
+		echo "Hi"
 	fi
 	three=$((three+1))
 done

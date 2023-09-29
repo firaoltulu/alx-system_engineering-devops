@@ -7,11 +7,11 @@ four=1
 while [ $four -le 10 ]
 do
 	if [ $four -eq 4 ]; then
-	   echo "bad luck"
+		echo "bad luck"
 	elif [ $four -eq 8 ]; then
-	   echo "good luck"
+		echo "good luck"
 	else
-	   echo "Best School"
+		echo "Best School"
 	fi
 	four=$((four+1))
 done

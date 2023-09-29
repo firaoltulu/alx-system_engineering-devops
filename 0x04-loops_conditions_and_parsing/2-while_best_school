@@ -3,6 +3,6 @@
 one=0
 while [ $one -lt 10 ]
 do
-    echo "Best School"
-    one=$((one+1))
+	echo "Best School"
+	one=$((one+1))
 done

@@ -8,12 +8,12 @@ while [ $five -le 20 ]
 do
 	echo $five
 	case $five in
-	     4) echo "bad luck from China"
-	     	;;
-	     9) echo "bad luck from Japan"
-	        ;;
-	     17) echo "bad luck from Italy"
-	        ;;
-        esac
+		4) echo "bad luck from China"
+			;;
+		9) echo "bad luck from Japan"
+			;;
+		17) echo "bad luck from Italy"
+			;;
+	esac
 	five=$((five+1))
 done
