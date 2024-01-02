@@ -13,15 +13,15 @@ if __name__ == "__main__":
 
     with open("{}.json".format(locuser_id), "w") as jsonfile:
         json.dump(
-            {
-                locuser_id: [
-                    {
-                        "task": t.get("title"),
-                        "completed": t.get("completed"),
-                        "username": locusername,
-                    }
-                    for t in loctodos
-                ]
-            },
-            jsonfile,
-        )
+                {
+                    locuser_id: [
+                        {
+                            "task": t.get("title"),
+                            "completed": t.get("completed"),
+                            "username": locusername,
+                            }
+                        for t in loctodos
+                        ]
+                    },
+                jsonfile,
+                )
